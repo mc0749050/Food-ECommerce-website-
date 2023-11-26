@@ -1,0 +1,113 @@
+*{
+  margin: 0px;
+  padding: 0px;
+  font-family: sans-serif;
+}
+.head{
+  background: #000000;
+  width: 100vw;
+  height: 70px;
+  display: flex;
+  position: fixed;
+  top: 0px;
+}
+.head i{
+  color: #fff;
+  font-size: 28px;
+}
+.head a{
+  height: 20px;
+  width: 20px;
+  margin-left: 12px;
+  margin-top: 15px;
+}
+.container{
+  width: 100vw;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  margin-top: 60px;
+}
+.item{
+  width: 49.7%;
+  height: 280px;
+  text-align: center;
+  border: 0.5px solid #000000;
+  
+}
+.name{
+  text-align: left;
+  padding-left: 15px;
+  padding-top: 5px;
+  font-size: 20px;
+  font-weight: 400;
+}
+.rating{
+  text-align: left;
+  padding-left: 15px;
+  padding-top: 2px;
+  font-size: 10px;
+  color: #FF9508
+}
+.rating span{
+  color: black;
+  font-size: 8px;
+  vertical-align: text-bottom;
+}
+.price{
+  font-size: 18px;
+  font-weight: 600;
+  text-align: left;
+  padding: 10px 15px;
+}
+
+.addToCart{
+  font-size: 15px;
+  color: #000000;
+  border: 1px solid #000000;
+  padding: 6px 30px;
+  border-radius: 20px;
+  background: #fff;
+  margin-top: -10px;
+}
+.addToCart:hover{
+  background: #000000;
+  color: #fff;
+}
+
+.img{
+  height: 150px;
+  width: 150px;
+  margin-top: 10px;
+  margin-left: 13px;
+}
+.img img{
+  height: 100%;
+  width: 100%;
+  object-fit: contain;
+}
+
+.searchbar{
+  width: 300px;
+  text-align: center;
+}
+.searchbar input{
+  height: 37px;
+  width: 270px;
+  margin-top: 15px;
+}
+::placeholder{
+  font-size: 20px;
+  position: absolute;
+  top: 6px;
+  left: 12px;
+  font-weight: 300;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+
+.searchbar input:focus{
+  padding-left: 12px;
+  font-size: 17px;
+  font-family: sans-serif;
+  width: 255px;
+}
